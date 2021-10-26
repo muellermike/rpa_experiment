@@ -1,10 +1,12 @@
 {
-  "name": "RPA_Googplace",
-  "description": "SEO Konten",
+  "name": "RPA_Project_Googplace",
+  "description": "Googplace Projekt",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "[2.11.3]",
+    "UiPath.Mail.Activities": "[1.12.1]",
     "UiPath.System.Activities": "[21.10.0]",
-    "UiPath.WebAPI.Activities": "[1.9.1]"
+    "UiPath.UIAutomation.Activities": "[21.10.1]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -15,7 +17,7 @@
     "autoDispose": false,
     "isPausable": true,
     "isAttended": false,
-    "requiresUserInteraction": false,
+    "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
       "Private:*",
@@ -39,11 +41,11 @@
     "fileInfoCollection": [],
     "modernBehavior": false
   },
-  "expressionLanguage": "CSharp",
+  "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "98466cb3-0965-4c19-a74c-a2e47acba1c7",
+      "uniqueId": "65046eb2-4b73-4a89-a8e6-41fd55b58a89",
       "input": [],
       "output": []
     }
@@ -51,5 +53,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Portable"
+  "targetFramework": "Windows"
 }
